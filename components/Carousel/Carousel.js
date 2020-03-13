@@ -30,6 +30,7 @@ function carouselCreator(){
 
   const image1 = document.createElement('img');
   image1.src = "./assets/carousel/mountains.jpeg";
+  image1.style.display = "inline-block";
   carousel.appendChild(image1);
 
   const image2 = document.createElement('img');
